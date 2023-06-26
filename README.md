@@ -49,6 +49,7 @@ This concept platform was developed as part of our final project as Mechanical E
 |Bluetooth Module |  1 | [Link](https://he.aliexpress.com/item/32786773297.html?spm=a2g0o.productlist.0.0.5e3b5aafSd0AEe&algo_pvid=18b06263-dd29-4e3e-b95d-6ed8de0a30c0&algo_exp_id=18b06263-dd29-4e3e-b95d-6ed8de0a30c0-1&pdp_ext_f=%7B%22sku_id%22%3A%2210000010469459308%22%7D&pdp_npi=2%40dis%21USD%213.3%210.01%21%21%21%21%21%402100bddf16599560372157334ee34e%2110000010469459308%21sea&curPageLogUid=gjJzOGLRD0cn&gatewayAdapt=glo2isr)|
 |Voltage Regulator |  1 | [Link](https://a.aliexpress.com/_EJZAgTN) |
 |esp cam |  1 | [Link](https://he.aliexpress.com/item/1005003472117545.html?spm=a2g0o.productlist.main.1.15502Dtt2Dtt0i&algo_pvid=d07eea10-2d0a-497f-9d19-72d87fc2ccae&algo_exp_id=d07eea10-2d0a-497f-9d19-72d87fc2ccae-0&pdp_npi=3%40dis%21ILS%213.59%212.89%21%21%21%21%21%402100b77316877600687485861d0753%2112000025941403906%21sea%21IL%210&curPageLogUid=mID1d383shdP) |
-|Jumper, M3 and M4 nuts and bolts, M3 and M4 inserts, crimping tools, and a soldering iron. |  - | - |
-
-
+|Jumper Cables |  - | - |
+|M3 and M4: nuts, bolts & inserts|  - | - |
+|Crimping tools |  - | - |
+|Soldering iron |  - | - |
