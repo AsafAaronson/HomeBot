@@ -1,7 +1,6 @@
 #include <VarSpeedServo.h>
 #include <NewPing.h>
 #include <Wire.h>
-//#include <SoftwareSerial.h>
 
 //lib+ pins
 VarSpeedServo servo1;
@@ -20,12 +19,6 @@ int servo5_pin=6;
 int servo6_pin=7;
 int servo7_pin=8;
 
-//bluetooth pins
-//int RX=10;
-//int TX=11;
-//
-//SoftwareSerial BTSerial(TX, RX);   // RX and TX acorrding to the pins on the module! (RX pin to 11, TX pin to 12)
-// initial position- important because of the lib VarSpeed
 int servo1_initial_pos=90;
 int servo2_initial_pos=90;
 int servo3_initial_pos=90;
@@ -73,7 +66,6 @@ int slow_var_speed=10;
 float ratio = 0.04;
 int loop_delay = 10;
 
-//walk good parameter: fast_var_speed=40;slow_var_speed=10;ratio = 0.04;loop_delay = 1;
 
 // Sonar Variables
 #define TRIGGER_PIN  9
@@ -171,8 +163,8 @@ void loop() {
 
     // Read Distance from Sonar
     else if (motor==61){
-      delay(50);  // Wait 50ms between pings (about 20 pings/sec). 29ms should be the shortest delay between pings.
-      int distance = sonar.ping_cm(); // Send ping, get distance in cm and print result (0 = outside set distance range)
+      delay(50); 
+      int distance = sonar.ping_cm(); 
       //Serial.print("Distance: ");
       Serial.println(distance);
      // Serial.println("cm");
@@ -231,10 +223,9 @@ void loop() {
 
   //Gyro calculations
   Wire.beginTransmission(MPU);
-  Wire.write(0x3B); // Start with register 0x3B (ACCEL_XOUT_H)
+  Wire.write(0x3B);
   Wire.endTransmission(false);
   Wire.requestFrom(MPU, 6, true); // Read 6 registers total, each axis value is stored in 2 registers
-  //For a range of +-2g, we need to divide the raw values by 16384, according to the datasheet
   AccX = (Wire.read() << 8 | Wire.read()) / 16384.0; // X-axis value
   AccY = (Wire.read() << 8 | Wire.read()) / 16384.0; // Y-axis value
   AccZ = (Wire.read() << 8 | Wire.read()) / 16384.0; // Z-axis value
