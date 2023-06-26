@@ -28,7 +28,7 @@ This concept platform was developed as part of our final project as Mechanical E
 
 ### Electronics
 <div align="center"> 
-  <img height = "330" src="./Source Code/README Images/Electronics Sceme.png"> 
+  <img height = "330" src="./Source Code/README Images/Electronics Sceme.jpg"> 
 </div>
 
 ### Interface
