@@ -68,14 +68,8 @@ set(handles.slider5,'Value',90);
 set(handles.slider6,'Value',90); 
 set(handles.slider9,'Value',98); 
 
-% --- Outputs from this function are returned to the command line.
-function varargout = myslider_OutputFcn(hObject, eventdata, handles) 
-% varargout  cell array for returning output args (see VARARGOUT);
-% hObject    handle to figure
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
 
-% Get default command line output from handles structure
+function varargout = myslider_OutputFcn(hObject, eventdata, handles) 
 varargout{1} = handles.output;
 clear all
 
@@ -118,7 +112,7 @@ MessageVerification(ROBOT_controller,val);
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'Value') returns position of slider
+
 %        get(hObject,'Min') and get(hObject,'Max') to determine range of slider
 
 % --- Executes during object creation, after setting all properties.
@@ -128,7 +122,7 @@ function slider1_CreateFcn(hObject, eventdata, handles)
 % handles    empty - handles not created until after all CreateFcns called
 
 
-% Hint: slider controls usually have a light gray background.
+
 if isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor',[.9 .9 .9]);
 end
@@ -139,7 +133,7 @@ function slider2_Callback(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'Value') returns position of slider
+
 %        get(hObject,'Min') and get(hObject,'Max') to determine range of slider
 data= get(handles.slider2,'value');
 set(handles.text2,'String',data)
@@ -168,8 +162,8 @@ function slider3_Callback(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'Value') returns position of slider
-%        get(hObject,'Min') and get(hObject,'Max') to determine range of slider
+
+
 data= get(handles.slider3,'value');
 set(handles.text3,'String',data)
 b= get(hObject, 'value');
@@ -185,7 +179,6 @@ function slider3_CreateFcn(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
-% Hint: slider controls usually have a light gray background.
 if isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor',[.9 .9 .9]);
 end
@@ -197,8 +190,6 @@ function slider4_Callback(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'Value') returns position of slider
-%        get(hObject,'Min') and get(hObject,'Max') to determine range of slider
 data= get(handles.slider4,'value');
 set(handles.text4,'String',data)
 b= get(hObject, 'value');
@@ -243,7 +234,6 @@ function slider5_CreateFcn(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
-% Hint: slider controls usually have a light gray background.
 if isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor',[.9 .9 .9]);
 end
@@ -255,8 +245,6 @@ function slider6_Callback(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'Value') returns position of slider
-%        get(hObject,'Min') and get(hObject,'Max') to determine range of slider
 data= get(handles.slider6,'value');
 set(handles.text6,'String',data)
 b= get(hObject, 'value');
@@ -269,11 +257,7 @@ MessageVerification(ROBOT_controller,val);
 
 % --- Executes during object creation, after setting all properties.
 function slider6_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to slider6 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    empty - handles not created until after all CreateFcns called
 
-% Hint: slider controls usually have a light gray background.
 if isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor',[.9 .9 .9]);
 end
@@ -281,12 +265,7 @@ end
 
 % --- Executes on slider movement.
 function slider7_Callback(hObject, eventdata, handles)
-% hObject    handle to slider7 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'Value') returns position of slider
-%        get(hObject,'Min') and get(hObject,'Max') to determine range of slider
 data= get(handles.slider7,'value');
 set(handles.text7,'String',data)
 b= get(hObject, 'value');
