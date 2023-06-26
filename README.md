@@ -37,8 +37,8 @@ This concept platform was developed as part of our final project as Mechanical E
 </div>
 
 ## B.O.M.
-| Product | Price per Unit | Amount | Link | 
-|---------|----------------|--------|------|
-|test 1 | 45$ | 3 | [Link](https://github.com) |
-|test 2 | 34$ | 1 | [Link](https://github.com) |
+| Product | Amount | Link | 
+|---------|-------|------|
+|RC BAT  2200mAh 7.4 V  |  1 | [Link](https://he.aliexpress.com/item/4000173875886.html?spm=a2g0o.productlist.main.55.4e6aLTXCLTXCvx&algo_pvid=118f8981-a4c6-42c5-b909-d4c970b9f276&algo_exp_id=118f8981-a4c6-42c5-b909-d4c970b9f276-27&pdp_npi=3%40dis%21ILS%2172.64%2143.6%21%21%21%21%21%402100b0d116877615583004169d0742%2110000000606937268%21sea%21IL%210&curPageLogUid=c13Pg2rlDLkW ) |
+|test 2 |  1 | [Link](https://github.com) |
 
