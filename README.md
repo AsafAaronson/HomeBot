@@ -18,7 +18,9 @@ The structure is similar to a robotic arm, featuring 6 degrees of freedom and a 
 By utilizing multiple sensors and a camera, we were able to provide it with some autonomous capabilities. One example is using computer vision to locate objects and autonomously navigate to them. Another example is the ability to fetch different nearby objects, by scanning with a distance sensor and making a grasp accordingly.
 
 This concept platform was developed as part of our final project as Mechanical Engineering students at the Technion, 2023.
+
 [Nizan Mashall](https://www.linkedin.com/in/nizan-mashall-53b196203/)
+
 [Asaf Aaronson](https://www.linkedin.com/in/asaf-aaronson/)
 
 
