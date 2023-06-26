@@ -11,11 +11,11 @@ text
 
 ## System Schematics
 ### Main System
-<img height = "100" src="./Source Code/README Images/Control Scheme.png">  
+<img height = "400" src="./Source Code/README Images/Control Scheme.png">  
 ### Electronics
-<img height = "100" src="./Source Code/README Images/Electronics Sceme.png">  
+<img height = "300" src="./Source Code/README Images/Electronics Sceme.png">  
 ### Interface
-<img height = "100" src="./Source Code/README Images/Interface Screenshot.png"> 
+<img height = "300" src="./Source Code/README Images/Interface Screenshot.png"> 
 
 ## B.O.M.
 | Product | Price per Unit | Amount | Link | 
